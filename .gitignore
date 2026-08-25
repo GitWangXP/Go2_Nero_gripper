@@ -19,8 +19,16 @@
 **/*.egg-info/
 **/__pycache__/
 **/.pytest_cache/
+**/.mypy_cache/
+**/.coverage
+**/htmlcov/
 **/*.pyc
 **/*.pb
+.venv/
+venv/
+.env
+.env.*
+!.env.example
 
 # Docker/Singularity
 **/*.sif
@@ -80,8 +88,8 @@ _build
 # Ruff cache
 **/.ruff_cache/
 
-# Dev-time files, generated stuff
-**/__*
+# Local AI assistant settings
+.claude/settings.local.json
 
 # Isaac Lab CI environments in native mode
 **/_isaaclab_install_ci_*
