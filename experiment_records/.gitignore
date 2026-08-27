@@ -1,0 +1,16 @@
+# Large or high-frequency experiment artifacts.
+**/checkpoints/
+**/videos/
+**/wandb/
+**/tensorboard/
+**/raw/
+**/datasets/
+**/recordings/
+
+**/*.pt
+**/*.pth
+**/*.ckpt
+**/*.onnx
+**/*.hdf5
+**/events.out.tfevents.*
+
